@@ -1,5 +1,5 @@
 body {
-    min-height: 150vh;
+    min-height: 160vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -73,6 +73,7 @@ h1 {
     padding: 8px 24px 8px 24px;
     border-style: none;
     border-radius: 8px;
+    font-size: 18px;
 }
 
 .placeholder-image {
@@ -120,4 +121,74 @@ h2 {
     color: #1F2937;
     text-align: center;
     padding-top: 8px;
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    width: 830px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 550px;
+}
+
+.sign-up-bar {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.bar {
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.bar-title {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bar-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.second-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px 24px 8px 24px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 24px 0px 24px;
+    background-color: #1F2937;
 }
